@@ -5,8 +5,9 @@ This is a demo-code for the creation of a research assistant with the API from O
 
 How to run:
 1. Create a new .env file and enter your OpenAI API key in the form of: OPENAI_API_KEY="key" (you can enter the rest of the API keys here also if you plan to modify). The API keys are fetched with dotenv.
-2. Install all packages in the first cell.
-3. Run the cells!
+2. Make sure to make available models gpt-4 and text-embedding-ada-002 in your limits section in OpenAI API.
+3. Install all packages in the first cell.
+4. Run the cells!
 
 What you can do here:
 - the first thing the assistant can do, is answer any question using GPT LLM;
